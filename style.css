@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Ubuntu&display=swap');
+
+html {
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	background-image: url(https://picsum.photos/1366/720/);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: #fff;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+body:after {
+	content: "তাহলে ডান বাটন ক্লিক করে View Page Source এ ক্লিক করুন।";
+	font-size: 30px;
+	display: inline-block;
+	padding: 5px 25px;
+	background: rgba(26, 188, 156,7.0);
+	backdrop-filter: saturate(180%) blur(10px);
+	border-radius: 4px;
+}
+
+body:before {
+	content: "কি বিশ্বাস হচ্ছে না?";
+	font-size: 50px;
+	display: block;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 30px;
+	padding: 5px 25px;
+	background: rgba(26, 188, 156,7.0);
+	backdrop-filter: saturate(180%) blur(10px);
+	border-radius: 4px;
+}
+
+html:before {
+	content: "This website made without any HTML code!";
+	font-size: 80px;
+	margin: 50px;
+	font-family: 'Ubuntu', sans-serif;
+	display: inline-block;
+	padding: 5px 25px;
+	background: rgba(26, 188, 156,7.0);
+	backdrop-filter: saturate(180%) blur(10px);
+	border-radius: 4px;
+}
+
+html:after {
+	content: 'এইখানে যদি ১৫ মিনিট অপেক্ষা করেন, তাহলে এই ওয়েব সাইটের Source Code এ আপনাকে রিডাইরেক্ট করে নিয়ে যাওয়া হবে।';
+	margin-top: 50px;
+	font-size: 20px;
+	display: inline-block;
+	padding: 5px 25px;
+	background: rgba(26, 188, 156,7.0);
+	backdrop-filter: saturate(180%) blur(10px);
+	border-radius: 4px;
+}
