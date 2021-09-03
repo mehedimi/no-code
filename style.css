@@ -51,7 +51,7 @@ html:before {
 }
 
 html:after {
-	content: 'এইখানে যদি ১৫ মিনিট অপেক্ষা করেন, তাহলে এই ওয়েব সাইটের Source Code এ আপনাকে রিডাইরেক্ট করে নিয়ে যাওয়া হবে।';
+	content: 'এইখানে যদি ১৫ মিনিট অপেক্ষা করুন, তাহলে এই ওয়েব সাইটের Source Code এ আপনাকে রিডাইরেক্ট করে নিয়ে যাওয়া হবে।';
 	margin-top: 50px;
 	font-size: 20px;
 	display: inline-block;
